@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+#button-container {
+    text-align: center;
+}
+
+#countervalue {
+    font-size: 18px;
+}
+
+#increasebutton {
+    font-size: 18px;
+}
+
+#ball-window {
+    height: 100%;
+    text-align: center;
+}
+
+#ball {
+    position: absolute;
+    top: calc(100% - 180px);
+    --initial-position: var(top);
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
+    left: 45%;
+}
